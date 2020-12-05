@@ -2,7 +2,7 @@
 function updatemap()
 {   
     console.log("UPDATING DATA ")
-    fetch("https://dazzling-jennings-9e9792.netlify.app/data.json")
+    fetch("https://coronamap-by-hritik.netlify.app/data.json")
     .then(response => response.json())
     .then(rsp => {
         //console.log(rsp.data)
